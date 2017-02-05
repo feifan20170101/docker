@@ -11,4 +11,4 @@ MAINTAINER enjoyme@126.com
 RUN apt-get -yqq update && apt-get install -yqq apache2 && apt-get clean
 
 # 容器启动命令
-CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]
+CMD echo "Hello, World!"
